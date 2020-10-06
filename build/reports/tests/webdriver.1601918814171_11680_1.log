@@ -1,0 +1,176 @@
+[1601918814.359][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 18628
+[1601918814.359][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1601918815.049][INFO]: [76193799b4fcf1feb85e2e678e07b250] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "E:\\Тестирование\\Проекты\\hellocucumber\\build\\downloads\\1601918813516_11680_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "E:\\Тестирование\\Проекты\\hellocucumber\\build\\downloads\\1601918813516_11680_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1601918815.055][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "E:\\Тестирование\\Проекты\\hellocucumber\\build\\downloads\\1601918813516_11680_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1601918815.055][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1601918815.056][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Vita\AppData\Local\Temp\scoped_dir2660_1716182162" data:,
+[1601918815.698][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601918817.825][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601918819.879][INFO]: [76193799b4fcf1feb85e2e678e07b250] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Vita\\AppData\\Local\\Temp\\scoped_dir2660_1716182162"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:53019"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "76193799b4fcf1feb85e2e678e07b250"
+}
+[1601918819.936][INFO]: [76193799b4fcf1feb85e2e678e07b250] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1601918819.936][INFO]: Waiting for pending navigations...
+[1601918819.938][INFO]: Done waiting for pending navigations. Status: ok
+[1601918820.067][INFO]: Waiting for pending navigations...
+[1601918820.067][INFO]: Done waiting for pending navigations. Status: ok
+[1601918820.067][INFO]: [76193799b4fcf1feb85e2e678e07b250] RESPONSE SetWindowRect {
+   "height": 734,
+   "width": 1294,
+   "x": 10,
+   "y": 10
+}
+[1601918820.073][INFO]: [76193799b4fcf1feb85e2e678e07b250] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1601918820.074][INFO]: [76193799b4fcf1feb85e2e678e07b250] RESPONSE SetTimeouts
+[1601918820.082][INFO]: [76193799b4fcf1feb85e2e678e07b250] COMMAND Navigate {
+   "url": "https://grinfer.com/home"
+}
+[1601918820.083][INFO]: Waiting for pending navigations...
+[1601918820.083][INFO]: Done waiting for pending navigations. Status: ok
+[1601918841.387][INFO]: Waiting for pending navigations...
+[1601918841.512][INFO]: Done waiting for pending navigations. Status: ok
+[1601918841.584][INFO]: Waiting for pending navigations...
+[1601918841.585][INFO]: Done waiting for pending navigations. Status: ok
+[1601918841.585][INFO]: [76193799b4fcf1feb85e2e678e07b250] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=85.0.4183.121)
+[1601918841.641][INFO]: [76193799b4fcf1feb85e2e678e07b250] COMMAND Quit {
+
+}
+[1601918841.891][INFO]: [76193799b4fcf1feb85e2e678e07b250] RESPONSE Quit
