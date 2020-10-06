@@ -6,4 +6,8 @@ public class BasicPage {
     public void clickButton(String text){
         $(By.xpath("//div[text()='"+ text + "']")).click ();
     }
+
+    public void clickButtonSpan(String text){
+        $(By.xpath("//span[text()='"+ text + "']/..")).click ();
+    }
 }
