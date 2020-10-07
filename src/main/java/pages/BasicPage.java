@@ -10,4 +10,8 @@ public class BasicPage {
     public void clickButtonSpan(String text){
         $(By.xpath("//span[text()='"+ text + "']/..")).click ();
     }
+
+    public void contentIsVisible(String text){
+        $(By.xpath("//*[text()='"+ text + "']")).click ();
+    }
 }

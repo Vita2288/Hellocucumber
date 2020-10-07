@@ -15,4 +15,8 @@ public class StepDefinitions {
     public void clickButtonSpan(String arg0) {
         basicPage.clickButton (arg0);
     }
+
+    @Then("Content with {string} visible")
+    public void contentWithVisible(String arg0) {
+    }
 }
