@@ -18,5 +18,6 @@ public class StepDefinitions {
 
     @Then("Content with {string} visible")
     public void contentWithVisible(String arg0) {
+        
     }
 }
